@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+}
+
+body{
+    background-color: black;
+}
+
+.heading{
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 44px 0px;
+
+}    
+
+#clockContainer{
+    position: relative;
+    top: 45%;
+    margin: auto;
+    height: 50vh;
+    width: 50vh;
+    background: url(clock.png) no-repeat;
+    background-size: 100%; 
+    
+}
+
+#hour , #minute , #second{
+    position: absolute;
+    background-color: black;
+    border-radius: 5px;
+    transform-origin: bottom;
+}
+
+#hour{
+    width: 1.8%;
+    height: 26%;
+    top: 23%;
+    left: 48.9%;
+    opacity: 0.8;    
+}
+
+#minute{
+    width: 1.4%;
+    height: 30%;
+    top: 19.5%;
+    left: 49%;
+    opacity: 0.7;
+}
+
+#second{
+    width: 1.2%;
+    height: 35%;
+    top: 14%;
+    left: 49.2%;
+    opacity: 0.6;  
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 0px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+
+
+.foot p{
+    padding-bottom: 3px;
+    font-size: 19px;
+}
+
+.acc i{
+    padding: 5px 2px;
+    margin: 3px 8px;
+    filter: grayscale(100%);
+}
+
+.acc i:hover{
+    /* background-color: white; */
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
