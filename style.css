@@ -83,7 +83,7 @@ body{
 .acc i{
     padding: 5px 2px;
     margin: 3px 8px;
-    filter: grayscale(100%);
+    color: white;
 }
 
 .acc i:hover{
