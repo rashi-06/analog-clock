@@ -12,3 +12,14 @@ setInterval(() => {
 
     
 }, 1000);
+
+
+
+
+setInterval(() => {
+    options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    a = new Date();
+    d = a.toLocaleDateString(undefined , options);
+    document.getElementById('date').innerHTML = d;
+    
+}, 1000);
