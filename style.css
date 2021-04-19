@@ -12,11 +12,19 @@ body{
     width: 100%;
     color: white;
     text-align: center;
+    padding: 30px 0px;
+}  
+
+.heading h1{
     font-size: 50px;
-    padding: 44px 0px;
+}  
 
-}    
 
+#date{
+    font-size: 25px;
+    padding: 8px 0px; 
+    font-weight: 300;
+}
 #clockContainer{
     position: relative;
     top: 45%;
